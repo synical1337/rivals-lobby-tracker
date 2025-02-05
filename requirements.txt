@@ -1,10 +1,9 @@
-streamlit
-requests
 opencv-python-headless
-numpy
-pandas
-mss
-pillow
 paddleocr
+mss
+numpy
+pillow
+pandas
+requests
 setuptools
-paddlepaddle
+streamlit
