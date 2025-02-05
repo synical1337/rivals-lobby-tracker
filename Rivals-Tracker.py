@@ -11,6 +11,8 @@ from config import API_KEY
 
 ocr = PaddleOCR(use_angle_cls=True, lang='korean', show_log=False)
 
+cv2.setNumThreads(0)
+
 BASE_URL = 'https://marvelrivalsapi.com/api/v1'
 headers = {'x-api-key': API_KEY}
 

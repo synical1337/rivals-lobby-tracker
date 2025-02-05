@@ -1,9 +1,9 @@
-opencv-python-headless
-paddleocr
-mss
-numpy
-pillow
-pandas
-requests
-setuptools
 streamlit
+requests
+opencv-python-headless
+numpy==1.26.4
+pandas
+mss
+pillow
+paddleocr==2.9.1
+setuptools
